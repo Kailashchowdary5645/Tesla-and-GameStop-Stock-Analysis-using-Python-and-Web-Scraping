@@ -30,35 +30,35 @@ def create_sample_revenue_data():
     }
     return pd.DataFrame(data)
 # -----------------------------
-# Question 1: Tesla Stock Data
+# Tesla Stock Data
 # -----------------------------
 
 tesla_data = create_sample_stock_data()
 print("Tesla Stock Data (First 5 Rows):")
 print(tesla_data.head())
 # -----------------------------
-# Question 2: Tesla Revenue Data
+# Tesla Revenue Data
 # -----------------------------
 
 tesla_revenue = create_sample_revenue_data()
 print("\nTesla Revenue Data (Last 5 Rows):")
 print(tesla_revenue.tail())
 # -----------------------------
-# Question 3: GameStop Stock Data
+# GameStop Stock Data
 # -----------------------------
 
 gme_data = create_sample_stock_data()
 print("\nGameStop Stock Data (First 5 Rows):")
 print(gme_data.head())
 # -----------------------------
-# Question 4: GameStop Revenue Data
+# GameStop Revenue Data
 # -----------------------------
 
 gme_revenue = create_sample_revenue_data()
 print("\nGameStop Revenue Data (Last 5 Rows):")
 print(gme_revenue.tail())
 # -----------------------------
-# Question 5: Plot Tesla Stock Graph
+# Plot Tesla Stock Graph
 # -----------------------------
 
 def make_graph(data, title):
@@ -73,7 +73,7 @@ def make_graph(data, title):
 
 make_graph(tesla_data, "Tesla Stock Price Over Time")
 # -----------------------------
-# Question 6: Plot GameStop Stock Graph
+# Plot GameStop Stock Graph
 # -----------------------------
 
 make_graph(gme_data, "GameStop Stock Price Over Time")
